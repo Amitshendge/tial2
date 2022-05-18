@@ -5,6 +5,13 @@
 <body>
 
     <form class="grid" action="/result" method="POST">
+
+      {% if name %}
+        <center>
+          <h3 style="color: blue;" class="let_space">Script {{name}}</h3>
+        </center> 
+
+      {% endif %}
        
       <label for="name">Enter you name:</label>
       <input type="text" id="name" name="name">
