@@ -1,9 +1,10 @@
 from datetime import datetime
 from flask import Flask, render_template
 from . import app
-
+from . import testing
 @app.route("/")
 def home():
+    testing.run()
     return render_template("index.html")
 
 @app.route("/about/")

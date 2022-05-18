@@ -1,1 +1,2 @@
 Flask
+Azure-storage-queue==12.3.0
